@@ -3,102 +3,71 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+
   }
 
-body {
-    background-color: #7699D4;
-    font-family: 'Lato', cursive;
-}
-
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
 .container {
-    background-color: #480355;
-    margin: 25px 50px 25px 50px;
     display: flex;
-    border-radius: 50px;
-}
-
-.div-logo {
-    background-color: #480355;
+    flex-direction: column;
+    align-items: center;
 
 }
 
-.title-logo {
-    color: white;
-    font-family: 'Courgette', cursive;
-    text-align: center;
+.img {
+    width: 350px;
+    border-radius: 30px;
     padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 
-.informacao {
-    width: 100vh;
-    margin: 30px;
-    padding: 10px;
-    text-align: justify;
+.conteudo {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
 }
 
-.informacao {
-    color: white;
+#title {
+    font-size: 20px;
 }
 
 .text {
-    padding: 10px;
-}
-
-div.informacao > p {
-    margin-left: 10px;
-}
-
-#oldValue {
-    text-decoration: line-through;
-    margin: 10px 0px -20px 0px;
-    color: red;
+    margin-bottom: 10px;
 }
 
 #value {
-    font-size: 50px;
-    color: yellow;
-    text-decoration: underline;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+    color: #5353f8;
 }
 
-.buttonToBuy {
-    border-radius: 10px;
+#container {
+    border-top: 1px solid black;
+    width: 350px;
+}
+
+
+#button {
     width: 100px;
-    height: 50px;
-    background-color: rgb(43, 180, 43);
-    margin: 0px 10px 0px 10px
+    height: 40px;
+    border-radius: 5px;
+    background-color: #338033;
+    margin: 20px 20px 0px 15px;
 }
 
-
-.textbutton {
+.textToButton {
+    color: white;
     text-decoration: none;
-    color: white;
+    font-weight: bold;
 }
 
-
-#title-img {
-    color: white;
-    text-align: center;
-    margin-top: 10px;
-    font-size: 30px;
-}
-
-.info-image {
-    width: 100vh;
-    margin: 10px;
-    padding: 10px;
-}
-
-.image {
-    border-radius: 30px;
-    width: 600px;
-    height: 500px;
-}
-
-footer {
-    background-color: #480355;
-    color: azure;
-    font-family: 'Lato', cursive;
-    text-align: center;
-    padding: 10px;
-    font-size: 10px;
+.textToAdd {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
 }

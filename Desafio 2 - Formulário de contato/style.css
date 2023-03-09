@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-color: #27282D;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.form {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    background-color: #4e515c;
+}
+
+.form img {
+    max-width: 500px;
+    width: 100%;
+}
+
+.form input[type=text],
+.form input[type=email] {
+    padding-left: 10px;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+}
+
+.form textarea {
+    margin: 10px auto;
+    resize: vertical;
+    display: block;
+    border-radius: 20px;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 120px;
+    min-height: 35px;
+    padding: 10px;
+}
+
+.form input[type=submit] {
+    cursor: pointer;
+    padding-left: 10px;
+    display: block;
+    border-radius: 20px;
+    margin: 10px auto;
+    font-size: 16px;
+    max-width: 500px;
+    width: 100%;
+    height: 35px;
+    background-color: #571aad;
+    color: white;
+    border: 1px solid #ccc;
+}
+
+.form input[type=submit]:hover {
+    background-color: #733cc0;
+}

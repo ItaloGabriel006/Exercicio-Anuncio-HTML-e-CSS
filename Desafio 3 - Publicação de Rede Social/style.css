@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 5px solid #191e27;
+    max-width: 100vh;
+    width: 40%;
+    max-height: 100vw;
+    min-width: 400px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #27313e;
+    color: white;
+}
+
+.perfil {
+    border-radius: 50%;
+    width: 60px;
+    margin: 0px 20px 15px 15px;
+    border: 2px solid black;
+}
+
+.name {
+    margin-top: 8px;
+}
+
+.name h3 {
+    margin-bottom: 5px;
+}
+
+
+.information {
+    font-size: 15px;
+    margin: 20px 0px 0px 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.post {
+    width: 100%;
+    height: 30%;
+    min-height: 200px;
+    display: flex;
+}
+
+.resumo {
+    margin: 0px 20px 10px 30px;
+    text-align: justify;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    min-width: 50px;
+    min-height: 25px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px 10px 20px;
+    background-color: #27313e;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #191e27;
+    color: rgb(255, 255, 255)
+}
+
+
+.imgButton {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+
+
+
